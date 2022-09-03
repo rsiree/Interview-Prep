@@ -1,0 +1,14 @@
+{
+    "name": "bankappmasai",
+    "description": "Build an Extension! for bank app",
+    "version": "2.0",
+    "manifest_version": 3,
+    "icons":{"128":"logo.png"},
+    "action":{
+        "default_title":"BANK APP",
+        "default_popup":"popup.html"
+    },
+    "permissions":[
+        "activeTab"
+    ]
+  }
