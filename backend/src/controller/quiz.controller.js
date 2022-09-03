@@ -13,6 +13,18 @@ router.get("/",async(req,res)=> {
     
  })
 
+//  router.get("/",async(req,res)=> {
+//   try{
+//       const quiz=await Quiz.find().lean().exec();
+//        console.log("hii")
+//       res.send(quiz)
+//   }
+//   catch(e){
+//       return res.status(500).send("message");
+//   }
+  
+// })
+
  router.get("/:id", async (req, res) => {
     try {
       const quiz = await Quiz.findById(req.params.id)
