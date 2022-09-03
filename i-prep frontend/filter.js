@@ -22,6 +22,7 @@ function fetchData(cat) {
             document.getElementById("ans").innerHTML ="A"+" : "+ show.answer;
             document.getElementById("qn").innerHTML ="Q"+" : "+ show.question;
             document.getElementById("cat").innerHTML ="Category"+" :"+" "+ show.category;
+            // document.getElementById("ans").innerHTML ="A"+" : "+ show.answer;
     })
 }
 
